@@ -33,7 +33,7 @@ a {
   color: rgb(236, 164, 80);
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -67,7 +67,32 @@ a {
 #new-products {
   width: 80%;
   margin: 2.5rem auto;
+}
 
+#side-drawer {
+  background-color: rgb(29, 26, 27);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#side-drawer ul {
+  margin: 0;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#side-drawer li {
+  margin: 1rem 0;
+}
+
+#side-drawer a {
+  color: rgb(253, 239, 213);
+  font-size: 2rem;
 }
 
 #new-products h1 {
